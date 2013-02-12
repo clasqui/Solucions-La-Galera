@@ -17,5 +17,8 @@
     param = flash[0].getElementsByTagName("param");
 
     param[2].setAttribute("value", dataurlsp);
-
+    
+    activitat = window.location;
+    
+    window.open(activvitat, "Apunta Aquí les solucions!");
 })()

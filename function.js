@@ -1,7 +1,7 @@
-// Codi del la funció "Solucions La Galera Text (Autocorrectors)"
-// Autor: Marc Clascà
+// Codi del la funciï¿½ "Solucions La Galera Text (Autocorrectors)"
+// Autor: Marc Clascï¿½
 // (c)2013
-// Visiteu pàgina oficial per instalació i més informació mclasca.sytes.net/solucions/
+// Visiteu pï¿½gina oficial per instalaciï¿½ i mï¿½s informaciï¿½ mclasca.sytes.net/solucions/
 
 
 (function () {
@@ -20,5 +20,5 @@
     
     activitat = window.location;
     
-    window.open(activvitat, "Apunta Aquí les solucions!");
+    window.open(activitat, "Apunta Aquï¿½ les solucions!");
 })()

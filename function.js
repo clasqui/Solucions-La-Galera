@@ -15,7 +15,7 @@
     	console.log("No s'ha pogut canviar variable profesor.");
     };
 
-    if((!flash[0].setAttribute("data", dataurlsp))){
+    if(!(flash[0].setAttribute("data", dataurlsp))){
     	console.log("No s'ha pogut aplicar canvi de variables al flash.")
     };
 
@@ -25,7 +25,7 @@
     console.log("Obrint finestra nova...")
     activitat = window.location;
     
-    if(!window.open(activitat, "Apunta Aquí les solucions!")){
+    if(!(window.open(activitat, "Apunta Aquí les solucions!"))){
     	console.log("No s'ha pogut obrir la finestra.")
     };
 })()

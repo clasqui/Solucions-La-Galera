@@ -11,11 +11,11 @@
 
     dataurl = flash[0].getAttribute("data");
 
-    if(!dataurlsp = dataurl.replace("profesor=0", "profesor=1")){
+    if(!(dataurlsp = dataurl.replace("profesor=0", "profesor=1"))){
     	console.log("No s'ha pogut canviar variable profesor.");
     };
 
-    if(!flash[0].setAttribute("data", dataurlsp)){
+    if((!flash[0].setAttribute("data", dataurlsp))){
     	console.log("No s'ha pogut aplicar canvi de variables al flash.")
     };
 

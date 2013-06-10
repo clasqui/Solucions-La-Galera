@@ -1,0 +1,22 @@
+body {
+	font-family: , Calibri;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 90%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+}
+
+.dades {
+	color: maroon;
+	text-indent: 5px;
+}
+
+.dades:hover {
+	font-size: 20px;
+}

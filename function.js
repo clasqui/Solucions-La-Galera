@@ -12,7 +12,7 @@
     console.log(url);
 
     url_array = url.split("/");
-    act_code = url_array[2];
+    act_code = url_array[4];
     act_code_array = act_code.split("-");
     llibre = act_code_array[0] + "-" + act_code_array[1] + "-" + act_code_array[2];
 

@@ -14,9 +14,9 @@
     
     if(url_array[2] != "projecteeso.lagaleratext.cat"){
         console.log("Not in lagalera text, exiting...");
-        alert("No estàs a la galera text!!");
+        alert("No estas a la galera text!!");
         return;
-    }
+    }else if(url_array)
 
     act_code = url_array[4];
     act_code_array = act_code.split("-");
@@ -29,9 +29,10 @@
     respostes_pdf_url = "http://projecteeso.lagaleratext.cat/static/llibres/" + llibre + "/MEDIES/" + act_code + "-R.pdf";
     console.log(respostes_pdf_url);
     
-    title = "Donde está el coche, donde está el coche!";
 
-    if(!(window.open(respostes_pdf_url, title))){
-    	console.log("No s'ha pogut obrir la finestra.")
-    };
+    var solucionsWin = window.open(respostes_pdf_url, "", "location=0, scrollbars=1, status=0, menubar=0, left=10, top=500, width=100, height=100");
+
+    solucionsWin.document.title = "Donde está el coche!";
+    
+
 })()

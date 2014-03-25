@@ -31,9 +31,18 @@
     
 
     var solucionsWin = window.open(respostes_pdf_url, "", "location=0, scrollbars=1, status=0, menubar=0, left=10, top=200, width=100, height=100");
-
-    win_title = solucionsWin.document.getElementsByTagName('title')[0];
-    win_title.textContent = "Donde esta el coche!";
     
+    function closeWin(reason){
+        solucionsWin.close();
+        console.log("Window closed. Reason: " + reason);
+    }
+
+    setTimeout(closeWin("2 minutes timeout over;"), 120000);
+
+    solucionsWin.onbeforeunload = function(){
+        clearTimeout();
+        closeWin("You closed the window!");
+    }
+
 
 })()

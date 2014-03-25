@@ -37,10 +37,10 @@
         console.log("Window closed. Reason: " + reason);
     }
 
-    setTimeout(closeWin("2 minutes timeout over;"), 120000);
+    var timerID = setTimeout(closeWin("2 minutes timeout over;"), 60000);
 
     solucionsWin.onbeforeunload = function(){
-        clearTimeout();
+        clearTimeout(timerID);
         closeWin("You closed the window!");
     }
 

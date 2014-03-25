@@ -30,7 +30,7 @@
     console.log(respostes_pdf_url);
     
 
-    var solucionsWin = window.open(respostes_pdf_url, "", "location=0, scrollbars=1, status=0, menubar=0, left=10, top=500, width=100, height=100");
+    var solucionsWin = window.open(respostes_pdf_url, "", "location=0, scrollbars=1, status=0, menubar=0, left=10, top=200, width=100, height=100");
 
     solucionsWin.document.title = "Donde está el coche!";
     

@@ -9,6 +9,8 @@
 	
     url = document.URL;
 
+    console.log(url);
+
     url_array = url.split("/");
     act_code = url_array[2];
     act_code_array = act_code.split("-");

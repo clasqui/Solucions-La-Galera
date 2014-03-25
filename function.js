@@ -32,7 +32,8 @@
 
     var solucionsWin = window.open(respostes_pdf_url, "", "location=0, scrollbars=1, status=0, menubar=0, left=10, top=200, width=100, height=100");
 
-    solucionsWin.document.title = "Donde está el coche!";
+    win_title = solucionsWin.document.getElementsByTagName('title')[0];
+    win_title.textContent = "Donde esta el coche!";
     
 
 })()

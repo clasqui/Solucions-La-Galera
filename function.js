@@ -1,7 +1,7 @@
 // Codi del la funció "Solucions La Galera Text (Autocorrectors)"
 // Autor: Marc Clascà
-// (c)2013
-// Visiteu pàgina oficial per instalació i més informació mclasca.sytes.net/solucions/
+// (c)2014
+// Visiteu pàgina oficial per instalació i més informació hulehule20.github.io/Solucions-La-Galera
 
 
 (function () {
@@ -30,14 +30,14 @@
     console.log(respostes_pdf_url);
     
 
-    var solucionsWin = window.open(respostes_pdf_url, "", "location=0, scrollbars=1, status=0, menubar=0, left=10, top=200, width=100, height=100");
+    var solucionsWin = window.open(respostes_pdf_url, "_blank", "location=0, scrollbars=1, status=0, menubar=0, left=10, top=200, width=100, height=100");
     
     function closeWin(reason){
         solucionsWin.close();
         console.log("Window closed. Reason: " + reason);
     }
 
-    var timerID = setTimeout(function() {closeWin("2 minutes timeout over");}, 120000);
+    var timerID = setTimeout(function() {closeWin("3 minutes timeout over");}, 180000);
 
     solucionsWin.onbeforeunload = function(){
         clearTimeout(timerID);

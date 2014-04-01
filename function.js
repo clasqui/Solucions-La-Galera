@@ -6,6 +6,18 @@
 
 (function () {
     console.log("Script iniciat");
+
+    var public boolean fix = false;
+    var ua = navigator.userAgent.toLowerCase(); 
+    if (ua.indexOf('safari') != -1) { 
+        if (ua.indexOf('chrome') > -1) {
+            console.log("Browser is Chrome");
+            fix = false;
+        } else {
+            console.warn("Browser is safari");
+            fix = true;
+        }
+    }
 	
     url = document.URL;
 
@@ -28,7 +40,13 @@
 
     respostes_pdf_url = "http://projecteeso.lagaleratext.cat/static/llibres/" + llibre + "/MEDIES/" + act_code + "-R.pdf";
     console.log(respostes_pdf_url);
-    
+
+    if(fix){
+        console.warn("Executing Safari fix");
+        window.prompt("Copia i enganxa en una altra finestra la adreça següent:",respostes_pdf_url);
+        return;
+    }
+
 
     var solucionsWin = window.open(respostes_pdf_url, "_blank", "location=0, scrollbars=1, status=0, menubar=0, left=10, top=200, width=100, height=100");
     

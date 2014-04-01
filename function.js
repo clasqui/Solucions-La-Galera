@@ -7,7 +7,7 @@
 (function () {
     console.log("Script iniciat");
 
-    var public boolean fix = false;
+    var fix = false;
     var ua = navigator.userAgent.toLowerCase(); 
     if (ua.indexOf('safari') != -1) { 
         if (ua.indexOf('chrome') > -1) {

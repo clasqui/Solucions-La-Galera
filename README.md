@@ -5,3 +5,6 @@ Versió 2.0.1 Beta del solucionador de La Galera Text.  Ara mostra un PDF amb le
 
 # Instal·lació
 Per instal·lar el bookmarklet simplement aneu a la pàgina hulehule20.github.io/Solucions-La-Galera i arrastreu el bookmarklet a la barra de preferits.
+
+# Llicència
+Aquest _software_ està sota la llicència MIT.  Llegeix LICENSE.

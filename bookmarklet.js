@@ -4,4 +4,4 @@
 // Visiteu pàgina oficial per instalació i més informació mclasca.sytes.net/solucions/
 
 
-javascript:void((function(d){var e=d.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//raw.github.com/hulehule20/Solucions-La-Galera/master/function.js');d.body.appendChild(e)})(document));
+javascript:void((function(d){var e=d.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//rawgit.com/hulehule20/Solucions-La-Galera/master/function.js');d.body.appendChild(e)})(document));
